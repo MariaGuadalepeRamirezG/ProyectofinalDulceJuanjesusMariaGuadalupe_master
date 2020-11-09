@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayoutayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/AgregarNotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/agregarNota"
+        android:textSize="25dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        tools:context=".MainActivity"/>
+    <TextView
+        android:id="@+id/TituloNotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_nota"
+        android:textSize="25dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        tools:context=".MainActivity"/>
+
+    <EditText
+        android:id="@+id/txtAgregarTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        tools:context=".MainActivity"/>
+
+    <TextView
+        android:id="@+id/descripcionNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion_nota"
+        android:textSize="25dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        tools:context=".MainActivity"/>
+
+    <EditText
+        android:id="@+id/txtDescribcion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        tools:context=".MainActivity"/>
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/agregarNota"
+        />
+    
+
+
+</LinearLayoutayout>

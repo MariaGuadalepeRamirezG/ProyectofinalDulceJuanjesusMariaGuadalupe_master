@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/AgregarTarea"
+        android:layout_width="190dp"
+        android:layout_height="48dp"
+        android:text="@string/AgregarTarea"
+        android:textSize="25dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:id="@+id/TituloTarea"
+        android:layout_width="183dp"
+        android:layout_height="51dp"
+        android:text="@string/TituloTarea"
+        android:textSize="25dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <EditText
+        android:id="@+id/txtTituloTarea"
+        android:layout_width="341dp"
+        android:layout_height="45dp"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <TextView
+        android:id="@+id/FechaTarea"
+        android:layout_width="238dp"
+        android:layout_height="46dp"
+        android:text="Fecha de la entrga"
+        android:textSize="25dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <EditText
+        android:id="@+id/txtFechaTarea"
+        android:layout_width="277dp"
+        android:layout_height="42dp"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <TextView
+        android:id="@+id/HoraTarea"
+        android:layout_width="425dp"
+        android:layout_height="60dp"
+        android:text="Hora en la que se debe de cumplir la tarea"
+        android:textSize="25dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <EditText
+        android:id="@+id/txtHoraTarea"
+        android:layout_width="305dp"
+        android:layout_height="57dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <TextView
+        android:id="@+id/DescripcionTarea"
+        android:layout_width="252dp"
+        android:layout_height="34dp"
+        android:text="Descripcion Tarea"
+        android:textSize="25dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <EditText
+        android:id="@+id/txtDescribcionTarea"
+        android:layout_width="443dp"
+        android:layout_height="193dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="616dp" />
+
+    <Button
+        android:id="@+id/btnAgregarTarea"
+        android:layout_width="136dp"
+        android:layout_height="50dp"
+        android:text="Guardar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="809dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

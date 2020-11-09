@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ProyectofinalDulceJuanjesusMariaGuadalupe</string>
+    <string name="agregarNota">agregar nota nueva</string>
+    <string name="titulo_nota">Titulo</string>
+    <string name="descripcion_nota">Descripcion de la nota</string>
+    <string name="Agregar_nota">agregar</string>
+    <string name="AgregarTarea">Agregartarea</string>
+    <string name="TituloTarea">Titulo_tarea</string>
+    <string name="FechaTarea">Fecha_entrega la tarea</string>
+    <string name="HoraTareas">Hora_entrega la tarea</string>
+    <string name="btnAgregarTarea">Guardar</string>
+    <string name="txtTituloTarea">Titulo_de_la_tareas</string>
+    <string name="txtDescripcionTarea">Decripcion_de_la_tarea</string>
+    <string name="DescripcionTarea">Descripcion_de_la_tarea</string>
+    <string name="txtFechaTarea">Fecha_de_entrega</string>
+    <string name="txtHoraTarea">Hora_en_la_que_se_entrega</string>
+</resources>
+
+
